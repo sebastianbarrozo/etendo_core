@@ -12,7 +12,7 @@ jobs:
 
     steps:
       - name: Etendo Pull request summarizer
-        uses: sebastianbarrozo/gpt-commit-summarizer@1.4
+        uses: sebastianbarrozo/gpt-commit-summarizer@1.5
 
     env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
